@@ -1,0 +1,57 @@
+main{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+body{
+    background-color: azure;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+
+}
+#addData{
+    display: flex;
+    justify-content:center;
+    gap: 25px;
+    
+    
+}
+
+#taskList{
+    width: 60%;
+    background-color: rgb(211, 228, 249);
+    margin-top: 20px;
+    border-radius: 8px;
+    margin:auto;
+
+    
+    
+    
+}
+.tasks{
+    display: flex;
+    justify-content: space-around;
+    margin: 12px;
+   
+    
+    
+}
+.tasks label{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(105, 99, 99);
+
+}
+button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(132, 132, 242);
+    color: aliceblue;
+    font-weight:bold;
+    align-items: center;
+    border: none;
+}
+
